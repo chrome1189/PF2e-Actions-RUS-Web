@@ -1,0 +1,27 @@
+body{
+	font-family: Garamond;
+    font-size: 6vh;
+	}
+
+#header{					
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #8f320d; 		
+	font-size: 6vh;
+	font-weight: bold;
+	}
+
+#footer{				
+    font-size: 6vh;
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    padding: 10px; 
+    background: #8f320d; 		
+    width: 100%; 
+    text-align: center;
+    color: #CCC;
+    font-weight: bold;
+}
