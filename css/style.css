@@ -1,7 +1,10 @@
 body{
 	font-family: Garamond;
-    font-size: 16px;
+    font-size: 14px;
+    background-color: #FFF;
 	}
+
+/* HEADER */
 
 #header{					
 	position: fixed;
@@ -9,10 +12,13 @@ body{
 	top: 0;
 	left: 0;
 	background: #8f320d; 		
-	font-size: 16px;
+	font-size: 20px;
     color: #FFF;
     text-align: center;
+    font-weight: bold;
 	}
+
+/* FOOTER */
 
 #footer{				
     font-size: 16px;
@@ -32,6 +38,8 @@ body{
     font-weight: bold;
 }
 
+/* LOGO */
+
 #logo {
     display: block;
     max-width: 100%;
@@ -40,9 +48,59 @@ body{
     margin-top: 18px;
 }
 
+/* CATHEGORY SELECTOR */
+
 #select {
     margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
 }
+
+#select .action-btm {
+    width: 100%;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #8f320d;
+    border-radius: 7px;
+    border: none;
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+#select .name {
+    text-align: left;
+    color: #FFF;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+#select .action-btm .icon {
+    height: 34px;
+    width: 34px;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: #8f320d;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -12px;
+    background-size: 34px 34px;
+    background-image: url(../img/PF_action_1.png);
+}
+
+/* CATHEGORY ACTION ICONS */
+
+#select .action-btm #comm-img {
+    background-image: url(../img/hand-grb.png);
+}
+
+/* MODAL WINDOWS*/
 
 .modal #overlay {
     top: 0;
@@ -52,5 +110,5 @@ body{
     position: fixed;
     background-color: black;
     opacity: 0.7;
-    display: none;
+    visibility: hidden;
 }
