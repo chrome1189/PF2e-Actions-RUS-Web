@@ -51,17 +51,19 @@ body{
 /* CATHEGORY SELECTOR */
 
 #select {
+    text-align: center;
     margin-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #select .action-btm {
-    width: 100%;
+    width: 250px;
     margin-bottom: 12px;
+    margin-right: 8px;
+    margin-left: 8px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     background-color: #8f320d;
     border-radius: 7px;
     border: none;
