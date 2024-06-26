@@ -4,6 +4,6 @@ function openCommon () {
     modalwin.style.display = 'flex';
 };
 
-function closewin () {
+function closeAllWin () {
     modalwin.style.display = 'none';
 };
