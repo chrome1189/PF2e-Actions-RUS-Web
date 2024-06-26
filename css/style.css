@@ -64,6 +64,7 @@ body{
 
 #select .action-btm {
     width: 250px;
+    height: 32px;
     margin-bottom: 12px;
     margin-right: 8px;
     margin-left: 8px;
@@ -117,6 +118,15 @@ body{
     background-image: url(../img/hand-grb.png);
 }
 
+#select .action-btm #acro-img {
+    background-image: url(../img/acro.jpg);
+}
+
+#select .action-btm #athl-img {
+    background-image: url(../img/athl.png);
+}
+
+
 /* MODAL WINDOWS*/
 
 #modalwin {
@@ -125,7 +135,7 @@ body{
     position: absolute;
     justify-content: center;
     align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
 #overlay {
@@ -143,10 +153,37 @@ body{
     position: relative;
     z-index: 3;
     background-color: rgb(255, 255, 255);
-    width: 90%;
-    margin-right: 7px;
+    width: 80%;
+    margin-right: 15px;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px 5px rgb(rgba(0, 0, 0, 0.5)) ;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
     padding: 30px;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.actions {
+    text-align: left;
+    display: none;
+}
+
+#closeX {
+    text-align: right;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+#close {
+    background-color: #8f320d;
+    color: #FFF;
+    border: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
