@@ -1,6 +1,6 @@
 var modalwin = document.getElementById('modalwin');
 
-function testopen () {
+function openCommon () {
     modalwin.style.display = 'flex';
 };
 
