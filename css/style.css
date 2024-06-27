@@ -40,7 +40,7 @@ body{
     font-weight: bold;
 }
 
-/* LOGO */
+/* Лого */
 
 #logo {
     display: block;
@@ -50,7 +50,7 @@ body{
     margin-top: 18px;
 }
 
-/* CATHEGORY SELECTOR */
+/* Выбор категорий */
 
 #select {
     position: absolute;
@@ -112,7 +112,7 @@ body{
     background-image: url(../img/PF_action_1.png);
 }
 
-/* CATHEGORY ACTION ICONS */
+/* Иконки категорий действий */
 
 #select .action-btm #comm-img {
     background-image: url(../img/hand-grb.png);
@@ -127,7 +127,7 @@ body{
 }
 
 
-/* MODAL WINDOWS*/
+/* Модальные окна*/
 
 #modalwin {
     z-index: 2;
@@ -162,19 +162,16 @@ body{
     text-align: center;
 }
 
-.actions {
-    text-align: left;
-    display: none;
-}
-
 #closeX {
-    text-align: right;
-    font-weight: bold;
     position: absolute;
     right: 20px;
     top: 15px;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #8f320d;
+    border: none;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
 }
 
 #close {
@@ -186,4 +183,56 @@ body{
     padding: 5px 10px 5px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+/* Информация в модальном окне */
+
+.actions {
+    text-align: left;
+    display: none;
+}
+
+.actions h1 {
+    font-size: 32px;
+    color: #8f320d;
+    text-align: center;
+}
+
+.actions h2 {
+    font-size: 20px;
+    color: #8f320d;
+}
+
+.actions h3 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.actions hr {
+    margin-top: -5x;
+    margin-bottom: -5px;
+}
+
+.actions p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.act-cost {
+    height: 14px;
+    margin-bottom: -2px;
+}
+
+.act-type {
+    display: inline-block;
+    background-color: #68180a;
+    font-weight: bold;
+    color: #FFF;
+    padding: 1px 4px;
+    border: 3px solid rgb(241, 177, 0);
+}
+
+.left-line {
+    padding-left: 10px;
+    border-left: 2px solid rgb(241, 177, 0);
 }
