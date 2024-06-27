@@ -123,9 +123,64 @@ body{
 }
 
 #select .action-btm #athl-img {
-    background-image: url(../img/athl.png);
+    background-image: url(../img/athl.jpg);
 }
 
+#select .action-btm #thif-img {
+    background-image: url(../img/thif.png);
+}
+
+#select .action-btm #surv-img {
+    background-image: url(../img/surv.png);
+}
+
+#select .action-btm #dipl-img {
+    background-image: url(../img/dipl.png);
+}
+
+#select .action-btm #intm-img {
+    background-image: url(../img/intm.png);
+}
+
+#select .action-btm #perf-img {
+    background-image: url(../img/perf.png);
+}
+
+#select .action-btm #medc-img {
+    background-image: url(../img/medc.jpg);
+}
+
+#select .action-btm #arcn-img {
+    background-image: url(../img/arcn.jpeg);
+}
+
+#select .action-btm #decp-img {
+    background-image: url(../img/decp.png);
+}
+
+#select .action-btm #soci-img {
+    background-image: url(../img/soci.png);
+}
+
+#select .action-btm #oclt-img {
+    background-image: url(../img/oclt.png);
+}
+
+#select .action-btm #netr-img {
+    background-image: url(../img/netr.png);
+}
+
+#select .action-btm #relg-img {
+    background-image: url(../img/relg.png);
+}
+
+#select .action-btm #crft-img {
+    background-image: url(../img/crft.png);
+}
+
+#select .action-btm #stel-img {
+    background-image: url(../img/stel.png);
+}
 
 /* Модальные окна*/
 
@@ -206,6 +261,7 @@ body{
 .actions h3 {
     margin-top: 30px;
     font-size: 16px;
+    margin-bottom: 2px;
 }
 
 .actions hr {
