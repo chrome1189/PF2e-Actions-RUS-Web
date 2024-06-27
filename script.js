@@ -1,5 +1,6 @@
 var modalwin = document.getElementById('modalwin');
 var actCommon = document.getElementById('common');
+var actGenlS = document.getElementById('generalskill');
 var actAcro = document.getElementById('acrobatics');
 var actAthl = document.getElementById('athletics');
 var actThif = document.getElementById('thievery');
@@ -22,6 +23,7 @@ var actStel = document.getElementById('stealth');
 function closeAllWin () {
     modalwin.style.display = 'none';
     actCommon.style.display = 'none';
+    actGenlS.style.display = 'none';
     actAcro.style.display = 'none';
     actAthl.style.display = 'none';
     actThif.style.display = 'none';
@@ -46,6 +48,13 @@ function closeAllWin () {
 function openCommon () {
     modalwin.style.display = 'flex';
     actCommon.style.display = 'block';
+};
+
+// Общие действия навыков
+
+function openGenlS () {
+    modalwin.style.display = 'flex';
+    actGenlS.style.display = 'block';
 };
 
 // Акробатика
@@ -133,7 +142,7 @@ function openRelg () {
     actRelg.style.display = 'block';
 };
 
-// Крафт
+// Ремесло
 function openCrft () {
     modalwin.style.display = 'flex';
     actCrft.style.display = 'block';

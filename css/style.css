@@ -118,6 +118,10 @@ body{
     background-image: url(../img/hand-grb.png);
 }
 
+#select .action-btm #gens-img {
+    background-image: url(../img/gens.png);
+}
+
 #select .action-btm #acro-img {
     background-image: url(../img/acro.jpg);
 }
@@ -235,6 +239,7 @@ body{
     border: none;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
     font-size: 16px;
+    font-weight: bold;
     padding: 5px 10px 5px;
     border-radius: 10px;
     margin-top: 10px;
@@ -291,4 +296,25 @@ body{
 .left-line {
     padding-left: 10px;
     border-left: 2px solid rgb(241, 177, 0);
+}
+
+.sidebar {
+    float: right;
+    width: 40%;
+    
+    display: block;
+    background-color: #f7e4db;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: ;
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar {
+        width: 90%;
+    }
+}
+
+.sidebar-tittle {
+    font-weight: bold;
 }
