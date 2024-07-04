@@ -269,6 +269,14 @@ body{
     margin-bottom: 2px;
 }
 
+.actions h4 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .actions hr {
     margin-top: -5x;
     margin-bottom: -5px;
@@ -277,6 +285,11 @@ body{
 .actions p {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.actions ul,li {
+    margin: 10px;
+    padding: 0px;
 }
 
 .act-cost {
@@ -298,6 +311,8 @@ body{
     border-left: 2px solid rgb(241, 177, 0);
 }
 
+/* Сайдбар */
+
 .sidebar {
     float: right;
     width: 40%;
@@ -305,8 +320,9 @@ body{
     display: block;
     background-color: #f7e4db;
     padding: 0 15px;
-    margin-top: 10px;
-    margin-left: ;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid #ac9e98;
 }
 
 @media screen and (max-width: 480px) {
@@ -317,4 +333,33 @@ body{
 
 .sidebar-tittle {
     font-weight: bold;
+}
+
+/* Таблицы */
+
+.table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: auto;
+	margin-bottom: 20px;
+    border: 1px solid #ac9e98;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #68180a;
+	border: 1px solid #ac9e98;
+    text-align: center;
+    color: #FFF;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #ac9e98;
+	text-align: left;
+}
+.table tbody tr:nth-child(odd){
+	background: #fff2eb;
+}
+.table tbody tr:nth-child(even){
+	background: #ffe9c8;
 }
