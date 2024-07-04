@@ -343,6 +343,7 @@ body{
 	width: auto;
 	margin-bottom: 20px;
     border: 1px solid #ac9e98;
+    font-size: 14px;
 }
 .table th {
 	font-weight: bold;
