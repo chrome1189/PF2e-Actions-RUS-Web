@@ -146,6 +146,10 @@ body{
     background-image: url(../img/intm.png);
 }
 
+#select .action-btm #lore-img {
+    background-image: url(../img/lore.png);
+}
+
 #select .action-btm #perf-img {
     background-image: url(../img/perf.png);
 }
@@ -327,6 +331,11 @@ body{
     border: 1px solid #ac9e98;
 }
 
+#sidebar100 {
+    width: 90%;
+    float: left;
+}
+
 @media screen and (max-width: 480px) {
     .sidebar {
         width: 90%;
@@ -356,7 +365,7 @@ body{
     color: #FFF;
 }
 .table td{
-	padding: 5px 10px;
+	padding: 5px 2px;
 	border: 1px solid #ac9e98;
 	text-align: left;
 }

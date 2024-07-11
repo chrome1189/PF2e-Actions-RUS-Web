@@ -7,6 +7,7 @@ var actThif = document.getElementById('thievery');
 var actSurv = document.getElementById('survival');
 var actDipl = document.getElementById('diplomacy');
 var actIntm = document.getElementById('intimidation');
+var actLore = document.getElementById('lore');
 var actPerf = document.getElementById('performance');
 var actMedc = document.getElementById('medicine');
 var actArcn = document.getElementById('arcana');
@@ -30,6 +31,7 @@ function closeAllWin () {
     actSurv.style.display = 'none';
     actDipl.style.display = 'none';
     actIntm.style.display = 'none';
+    actLore.style.display = 'none';
     actPerf.style.display = 'none';
     actMedc.style.display = 'none';
     actArcn.style.display = 'none';
@@ -92,6 +94,12 @@ function openDipl () {
 function openIntm () {
     modalwin.style.display = 'flex';
     actIntm.style.display = 'block';
+};
+
+// Знание Лор
+function openLore () {
+    modalwin.style.display = 'flex';
+    actLore.style.display = 'block';
 };
 
 // Исполнение
